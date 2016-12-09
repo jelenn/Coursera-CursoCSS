@@ -1,42 +1,84 @@
 
-.row > div {
-  border: 2px solid red;
-  background-color: gray;
+
+
+p{color:blue;}
+
+section{
+  border:1px solid black; 
+  height: 100px;
+  width: 200px;
+  
 }
-/* Simple Responsive Framework. */
+*{
+box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 24px;
+}
 .row {
   width: 100%;
-margin-bottom: 15px;
+  position: relative;
+
 }
+#section1 {
+    background-color: yellow;
+    float: left;
+    width: 100%;
+    
+ 
+  }
 
+  #section2 {
+     background-color: #00FFFF;
+    float: left;
+    width: 100%;
+     
 
-/********** desktop**********/
-@media (min-width: 992px) {
-  
-    .col-de-1
-    border: 1px solid green; 
+  }
+
+  #section3 {
+     background-color:#00FF00;
+    float: left;
+    width: 100%;
+   
+    
     
   }
-  .col-de-1 {
-    width: 100%;
+  #title {
+    background-color: #A52A2A;
+    position: relative;
+    border: 1px solid black; 
+    height: 25px;
+    width: 80px;
+    float: right;
+     font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+    font-size: 12px;
+    text-indent: 5px;
+
+  }
+  .texto{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+
   }
 
-  /********** tablet**********/
-@media (min-width: 768px) and (max-width: 991) {
-  
-  
-  }
-
-  /********** desktop**********/
-@media (max-width: 767) {
-  
-  
-  }
-
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+ 
+/********** desktop**********/
+@media (min-width: 992px) {
+   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+    
+   padding: 10px;
+     
   }
   .col-lg-1 {
     width: 8.33%;
@@ -74,13 +116,17 @@ margin-bottom: 15px;
   .col-lg-12 {
     width: 100%;
   }
-}
 
-/********** Medium devices only **********/
-@media (min-width: 950px) and (max-width: 1199px) {
+ 
+
+  
+}
+  /********** tablet**********/
+
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+    padding: 10px;
   }
   .col-md-1 {
     width: 8.33%;
@@ -119,4 +165,18 @@ margin-bottom: 15px;
     width: 100%;
   }
 }
+  
 
+  /********** desktop**********/
+@media (max-width: 767px) {
+    .col-xs{
+   padding: 10px;
+   float: left;
+   width: 100%;
+   
+  }
+
+}
+
+
+/
